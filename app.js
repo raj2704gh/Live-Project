@@ -1,5 +1,3 @@
-
-
 const express = require('express');
 const mongoose = require('mongoose');
 const multer = require('multer');
@@ -30,10 +28,11 @@ app.use(express.urlencoded({ extended: true })); // Choose the port for your ser
   saveUninitialized: false,
   cookie:{
     expires:Date.now()+60*60*1000,
-  //  maxAge:7*24*60*60*1000,
+    maxAge:7*24*60*60*1000,
     httpOnly:true,
 }
 }));
+
 
 main()
 .then(()=>{

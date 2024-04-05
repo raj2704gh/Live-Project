@@ -9,6 +9,7 @@ const ProjectDetail = require('../models/projectDetail');
 // API endpoint to retrieve existing project details
 router.get('/edit/show',verifyToken, async (req, res) => {
     try {
+      
         const projectId = req.body.projectId;
         if(!projectId){
           const project=await ProjectDetail.find({});

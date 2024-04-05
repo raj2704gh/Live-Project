@@ -10,6 +10,7 @@ router.delete('/', verifyToken, async (req, res) => {
         // Extract project IDs from the request body
         const { projectIds } = req.body;
         console.log(projectIds);
+        
         // Check if projectIds is provided
         if (!projectIds || !Array.isArray(projectIds)) {
             return res.status(400).json({ error: 'Invalid input. Project IDs must be provided as an array.' });

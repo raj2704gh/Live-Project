@@ -9,10 +9,7 @@ const jwt = require('jsonwebtoken');
   
 // Route for adding owner information
 router.post('/',verifyToken, async (req, res) => {
-    try {
-         
-        //console.log(req.session.token);
-            
+    try { 
          const { name, address, city, state, country, phone, email, abbreviation } = req.body;
             
        // Validate required fields

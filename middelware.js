@@ -28,7 +28,7 @@ module.exports.verifyToken=(req, res, next)=>{
         return res.status(401).json({ error: 'Token expired' });
       }
       req.user = decoded; // Add decoded token payload to the request object for further processing
-
+     
       next(); // Proceed to the next middleware or route handler
   });
 }
@@ -38,7 +38,6 @@ module.exports.verifyToken=(req, res, next)=>{
 module.exports.validateListing=(req,res,next)=>{
   let {demo}=req.body;
   demo=JSON.parse(demo);
-  console.log(demo)
   const {error}=projectDetailSchema.validate(demo);
   if(error){
       let errMsg=error.details.map((el)=>el.message).join(",");

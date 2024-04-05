@@ -3,7 +3,6 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
-//const session = require('express-session');
 const User=require("../models/users");
 const router = express.Router();
 
@@ -37,7 +36,7 @@ router.post("/",async(req,res)=>{
              // If credentials are valid, generate a JWT
              const secretKey=f_for_secret();
              req.session.secretKey=secretKey;
-             const expirationTimestamp=Date.now()+60*60*1000;//(h,m,s,mi)
+             const expirationTimestamp=Date.now()+60*60*1000;//(h,m,s,ms)
              const token = jwt.sign({ userId: user._id, email: user.email,exp:expirationTimestamp },secretKey);
               
              // Store token in user session

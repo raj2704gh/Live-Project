@@ -1,0 +1,239 @@
+[{
+  "_id": {
+    "$oid": "660e6ea7dfe35f4457233359"
+  },
+  "type": "Projects",
+  "headline": "ghhg",
+  "details": "Constructing a new office building with modern facilities.",
+  "attachment": [
+    "uploads\\050197beaf79265e1d63ed21f13817c9",
+    "uploads\\b2e865bb1a85ad03726ea680fd3f0c33",
+    "uploads\\7d6b4e020769de0b7330461ef5810e44"
+  ],
+  "phase": "Execution",
+  "locations": [
+    {
+      "city": "New York City",
+      "state": "New York",
+      "country": "USA",
+      "_id": {
+        "$oid": "660e7709182edc8d80df8ea3"
+      }
+    }
+  ],
+  "contacts": {
+    "contacDetail": [
+      {
+        "phone": "+1234567890",
+        "email": "contact@example.com",
+        "address": "123 Main Street, New York City, NY, USA",
+        "_id": {
+          "$oid": "660e7709182edc8d80df8ea4"
+        }
+      }
+    ],
+    "projectCost": {
+      "amount": 500000,
+      "currency": "USD",
+      "scale": "Crore"
+    },
+    "projectCategory": "Commercial"
+  },
+  "period": {
+    "startDate": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "months": 0,
+    "days": 0
+  },
+  "ownerAgency": {
+    "ownerName": [
+      "ABC Construction Company"
+    ],
+    "source": "Internal",
+    "otherAgency": "Fainancier"
+  },
+  "createdAt": "04/04/2024",
+  "__v": 2,
+  "updatedAt": "04/04/2024"
+},
+{
+  "_id": {
+    "$oid": "660e7a04182edc8d80df8ea8"
+  },
+  "type": "Projects",
+  "headline": "new final project",
+  "details": "Constructing a new office building with modern facilities.",
+  "attachment": [
+    "uploads\\e460727f71b53fc285577aa4747f9890"
+  ],
+  "phase": "Planning",
+  "locations": [
+    {
+      "city": "nyc",
+      "state": "New York",
+      "country": "USA",
+      "_id": {
+        "$oid": "660e7a04182edc8d80df8ea9"
+      }
+    }
+  ],
+  "contacts": {
+    "contacDetail": [
+      {
+        "phone": "9898989898",
+        "email": "contact@example.com",
+        "address": "123 Main Street, New York City, NY, USA",
+        "_id": {
+          "$oid": "660e7a04182edc8d80df8eaa"
+        }
+      }
+    ],
+    "projectCost": {
+      "amount": 500000,
+      "currency": "USD",
+      "scale": "Crore"
+    },
+    "projectCategory": "Commercial"
+  },
+  "period": {
+    "startDate": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "months": 0,
+    "days": 0
+  },
+  "ownerAgency": {
+    "ownerName": [
+      "ABC Construction Company"
+    ],
+    "source": "Internal",
+    "otherAgency": "Fainancier"
+  },
+  "createdAt": "04/04/2024",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660e7a2b182edc8d80df8eae"
+  },
+  "type": "Projects",
+  "headline": "new final project",
+  "details": "Constructing a new office building with modern facilities.",
+  "attachment": [
+    "uploads\\b5fbb29c6f56ecc3f900b09d266dd8cc"
+  ],
+  "phase": "Planning",
+  "locations": [
+    {
+      "city": "nyc",
+      "state": "New York",
+      "country": "USA",
+      "_id": {
+        "$oid": "660e7a2b182edc8d80df8eaf"
+      }
+    }
+  ],
+  "contacts": {
+    "contacDetail": [
+      {
+        "phone": "9898989898",
+        "email": "contact@example.com",
+        "address": "123 Main Street, New York City, NY, USA",
+        "_id": {
+          "$oid": "660e7a2b182edc8d80df8eb0"
+        }
+      }
+    ],
+    "projectCost": {
+      "amount": 500000,
+      "currency": "USD",
+      "scale": "Crore"
+    },
+    "projectCategory": "Commercial"
+  },
+  "period": {
+    "startDate": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "months": 0,
+    "days": 0
+  },
+  "ownerAgency": {
+    "ownerName": [
+      "ABC Construction Company"
+    ],
+    "source": "Internal",
+    "otherAgency": "Fainancier"
+  },
+  "createdAt": "04/04/2024",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660f8c1bea80cff72a484ea3"
+  },
+  "type": "News",
+  "headline": "new final project",
+  "details": "Constructing a new office building with modern facilities.",
+  "attachment": [
+    "uploads\\7faf33cb8828086af031c003372ba1fe"
+  ],
+  "phase": "Planning",
+  "locations": [
+    {
+      "city": "nyc",
+      "state": "New York",
+      "country": "USA",
+      "_id": {
+        "$oid": "660f8c1bea80cff72a484ea4"
+      }
+    }
+  ],
+  "contacts": {
+    "contacDetail": [
+      {
+        "phone": "9898989898",
+        "email": "contact@example.com",
+        "address": "123 Main Street, New York City, NY, USA",
+        "_id": {
+          "$oid": "660f8c1bea80cff72a484ea5"
+        }
+      }
+    ],
+    "projectCost": {
+      "amount": 500000,
+      "currency": "USD",
+      "scale": "Crore"
+    },
+    "projectCategory": "Commercial"
+  },
+  "period": {
+    "startDate": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "months": 0,
+    "days": 0
+  },
+  "ownerAgency": {
+    "ownerName": [
+      "ABC Construction Company"
+    ],
+    "source": "Internal",
+    "otherAgency": "Fainancier"
+  },
+  "createdAt": "05/04/2024",
+  "__v": 0
+}]

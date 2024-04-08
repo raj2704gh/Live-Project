@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "660e73cb61760f1768a19a0e"
+  },
+  "otherAgencies": {
+    "type": "Supplier",
+    "financierName": "ABCD Bank",
+    "financierAddress": "123 Main Street"
+  },
+  "__v": 0
+}]

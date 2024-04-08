@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "660e6f14dfe35f445723335f"
+  },
+  "name": "Dhirubhai",
+  "address": "123 Main Street",
+  "city": "Anytown",
+  "state": "State",
+  "country": "Country",
+  "phone": "123-456-7890",
+  "email": "johndoe@example.com",
+  "abbreviation": "JD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660e736c61760f1768a19a09"
+  },
+  "name": "TATA",
+  "address": "123 Main Street",
+  "city": "Anytown",
+  "state": "State",
+  "country": "Country",
+  "phone": "123-456-7890",
+  "email": "johndoe@example.com",
+  "abbreviation": "JD",
+  "__v": 0
+}]

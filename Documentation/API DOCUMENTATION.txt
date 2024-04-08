@@ -1,0 +1,127 @@
+API Documentation
+
+1. Login API
+   - URL: /api/login
+   - Method: POST
+   - Description: Authenticates the user and generates a JWT token for                   authorization.
+   - Request Body:
+     - email: User's email address.
+     - password: User's password.
+   - Response:
+     - token: JWT token for accessing protected routes.
+   - Error Response:
+     - Status: 400, 404, 500
+     - error: Error message
+
+2. Add Project Details API
+   - URL: /api/project-details
+   - Method: POST
+   - Description: Adds project details to the database.
+   - Request Body:
+     - demo: JSON string containing project details.
+     - attachment: Files attached to the project.
+   - Response:
+     - Success: Status 200, message: 'Project detail saved successfully'
+     - Error: Status 500, error message
+   - Error Response:
+     - Status: 500
+     - error: Error message
+
+3. Delete Project Details API
+   - URL: /api/delete
+   - Method: DELETE
+   - Description: Deletes project details from the database based on provided IDs.
+   - Request Body:
+     - projectIds: Array of project IDs to be deleted.
+   - Response:
+     - Success: Status 200, message: 'Projects deleted successfully'
+     - Error: Status 404 or 500, error message
+   - Error Response:
+     - Status: 404, 500
+     - error: Error message
+
+4(a). Retrieve Project Details for Editing
+   - URL: /api/edit/show
+   - Method: GET
+   - Description: Retrieves project details for editing based on the provided                   project ID.
+   - Query Parameters:
+     - projectId: ID of the project to retrieve (optional).
+   - Response:
+     - JSON object containing project details.
+   - Error Response:
+     - Status: 404, 500
+     - error: Error message
+
+4(b). Update Project Details
+   - URL: /api/edit
+   - Method: POST
+   - Description: Updates project details in the database.
+   - Request Body:
+     - demo: JSON string containing updated project details.
+     - id: ID of the project to be updated.
+     - attachment: Updated files attached to the project.
+   - Response:
+     - Success: Status 200, message: 'Project details updated successfully'
+     - Error: Status 404 or 500, error message
+   - Error Response:
+     - Status: 404, 500
+     - error: Error message
+
+5(a). Retrieve Financial Information
+   - URL: /api/financial-info
+   - Method: GET
+   - Description: Retrieves financial information.
+   - Response:
+     - Array of financial data.
+   - Error Response:
+     - Status: 500
+     - error: Error message
+
+5(b). Add Financial Information
+   - URL: /api/financial-info
+   - Method: POST
+   - Description: Adds financial information to the database.
+   - Request Body:
+     - otherAgencies: Financial data to be added.
+   - Response:
+     - Success: Status 200, message: 'Financial information added successfully'
+     - Error: Status 500, error message
+   - Error Response:
+     - Status: 500
+     - error: Error message
+
+
+6. Listing API
+   - URL: /api/listing
+   - Method: GET
+   - Description: Retrieves project details based on specified type or all projects if no type is specified.
+   - Query Parameters:
+     - type: Type of projects to retrieve (optional).
+   - Response:
+     - Array of project details.
+   - Error Response:
+     - Status: 300, 404, 500
+     - error: Error message
+
+7. Owner Name API
+   - URL: /api/ownername
+   - Method: GET
+   - Description: Retrieves names and IDs of all owners.
+   - Response:
+     - Array of owner details containing name and ID.
+   - Error Response:
+     - Status: 404, 500
+     - error: Error message
+
+8. Add Owner API
+   - URL: /api/owner
+   - Method: POST
+   - Description: Adds owner information to the database.
+   - Request Body:
+     - Owner details including name, address, city, state, country, phone, email,        and abbreviation.
+   - Response:
+     - Success: Status 200, message: 'Owner information added successfully'
+     - Error: Status 500, error message
+   - Error Response:
+     - Status: 500
+     - error: Error message

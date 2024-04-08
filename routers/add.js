@@ -14,6 +14,7 @@ router.post('/', upload.array('attachment'),verifyToken,validateListing, async(r
        const user=await User.findById(req.session.user._id);  
         
      // Extract data from the request body
+     
        let {demo}=req.body;
        demo=JSON.parse(demo);
        const {type,headline,details,phase,locations,contacts,period,ownerAgency}=demo;
